@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Grid } from "@mui/material";
 import styles from "./Home.module.css";
 import HeroSection from "./HeroSection";
-import pliacesImg from "../DummyData/homePageDummyData";
+import placesImg from "../DummyData/homePageDummyData";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import BodySection from "./BodySection";
@@ -68,7 +68,7 @@ function Home() {
               )
             }
           >
-            {placesImg.map((place, index) => (
+            {placesImg?.map((place, index) => (
               <Grid className={styles.grid1} key={index}>
                 <img src={place.image} alt="HomeImage" className={styles.img} />
               </Grid>
