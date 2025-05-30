@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Grid } from "@mui/material";
 import styles from "./Home.module.css";
 import HeroSection from "./HeroSection";
-import placesImg from "../DummyData/homePageDummyData";
+import pliacesImg from "../DummyData/homePageDummyData";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import BodySection from "./BodySection";
